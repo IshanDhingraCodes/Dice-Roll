@@ -5,6 +5,6 @@ let min = 1;
 let max = 6;
 
 myButton.onclick = ()=>{
-    randomNum = Math.floor(Math.random()*6)+1;
+    randomNum = Math.floor(Math.random()*max)+min;
     myLabel.textContent = randomNum;
 }
