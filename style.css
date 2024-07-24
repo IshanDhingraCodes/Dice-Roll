@@ -1,0 +1,25 @@
+.heading{
+    text-align: center;
+    font-size: 3em;
+}
+
+#myButton{
+    font-size: 2em;
+    padding: 5px 12px;
+    font-weight: bold;
+    background-color: bisque;
+    color:brown;
+}
+
+.centerBtn{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
+}
+
+#myLabel{
+    font-size: 4em;
+    border: 2px solid black;
+    padding: 20vh;
+}
